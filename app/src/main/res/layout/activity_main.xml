@@ -51,13 +51,25 @@
         <Button
             android:clickable="true"
             android:id="@+id/menubtn3"
-            android:text="safety tips for CARS"
+            android:text="COVID-19 Precautions for Car"
             android:textColor="@color/white"
             android:fontFamily="sans-serif-condensed-medium"
             android:layout_width="match_parent"
             android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="60dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"/>
+        <Button
+            android:clickable="true"
+            android:id="@+id/menubtn2"
+            android:text="Routine Maintenance of cars"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
             android:layout_height="wrap_content"
             android:background="@drawable/shape"/>
         <Button
@@ -69,7 +81,7 @@
             android:layout_width="match_parent"
             android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="30dp"
             android:layout_height="wrap_content"
             android:background="@drawable/shape"/>
 
@@ -84,7 +96,7 @@
             android:layout_width="match_parent"
             android:layout_marginRight="10dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="30dp"
             android:layout_height="wrap_content"
             android:background="@drawable/shape"/>
     </LinearLayout>

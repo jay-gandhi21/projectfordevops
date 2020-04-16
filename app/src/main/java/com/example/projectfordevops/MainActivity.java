@@ -13,13 +13,14 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button menubtn1,menubtn3,menubtn5;
+    Button menubtn1,menubtn2,menubtn3,menubtn5;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         menubtn1=(Button) findViewById(R.id.menubtn1);
+        menubtn2=(Button)findViewById(R.id.menubtn2);
         menubtn3=(Button) findViewById(R.id.menubtn3);
         menubtn5=(Button) findViewById(R.id.menubtn5);
 
@@ -32,12 +33,20 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent1);
             }
         });
+        menubtn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent2 = new Intent(MainActivity.this, maintaience.class);
+                startActivity(intent2);
+            }
+        });
 
         menubtn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 menubtn3.isClickable();
-                Toast.makeText(getBaseContext(), "3" , Toast.LENGTH_SHORT ).show();
+                Intent intent3=new Intent(MainActivity.this,about_cars.class);
+                startActivity(intent3);
             }
         });
 
@@ -45,7 +54,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 menubtn5.isClickable();
-                Toast.makeText(getBaseContext(), "5" , Toast.LENGTH_SHORT ).show();
+                Intent intent5=new Intent(MainActivity.this,about_us.class);
+                startActivity(intent5);
+
             }
         });
     }
