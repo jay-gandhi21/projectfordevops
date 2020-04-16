@@ -78,7 +78,7 @@ public class login_main extends AppCompatActivity {
                 btnguest.isClickable();
                 Intent in = new Intent(login_main.this, MainActivity.class);
                 startActivity(in);
-                Toast.makeText(getBaseContext(), "You are login as Guest" , Toast.LENGTH_SHORT ).show();
+                    Toast.makeText(getBaseContext(), "You are login as Guest" , Toast.LENGTH_SHORT ).show();
             }
         });
         handler.postDelayed(runnable, 3000);

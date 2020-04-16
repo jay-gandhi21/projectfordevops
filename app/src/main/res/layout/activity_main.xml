@@ -43,14 +43,50 @@
         </TextView>
     </LinearLayout>
     <LinearLayout
+        android:orientation="vertical"
         android:layout_below="@+id/linear2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <ExpandableListView
-            android:id="@+id/listView"
+        android:layout_height="match_parent"
+        >
+        <Button
+            android:clickable="true"
+            android:id="@+id/menubtn3"
+            android:text="safety tips for CARS"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-condensed-medium"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
-        </ExpandableListView>
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"/>
+        <Button
+            android:clickable="true"
+            android:id="@+id/menubtn1"
+            android:text="Add Car Here"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"/>
+
+
+
+        <Button
+            android:clickable="true"
+            android:id="@+id/menubtn5"
+            android:text="About us"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"/>
     </LinearLayout>
 </RelativeLayout>
 

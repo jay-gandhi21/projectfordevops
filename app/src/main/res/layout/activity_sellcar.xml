@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/blue"
+    android:layout_height="match_parent"
+    tools:context=".sellcar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Add your car here:"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="30dp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title of Car"
+            android:textAllCaps="true"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="sans-serif-light"
+            android:textSize="17sp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/edttitle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/shape"
+            android:fontFamily="sans-serif-light"
+            android:hint=""
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Model year"
+        android:textAllCaps="true"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="sans-serif-light"
+        android:textSize="17sp"
+        android:textColor="@color/white"/>
+        <Spinner
+        android:id="@+id/spinmodel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape"
+        android:fontFamily="sans-serif-light"
+        android:textColorHint="@color/white"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:prompt="@string/model_prompt"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:singleLine="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brand"
+            android:textAllCaps="true"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="sans-serif-light"
+            android:textSize="17sp"
+            android:textColor="@color/white"/>
+    <Spinner
+        android:id="@+id/spinbrand"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape"
+        android:fontFamily="sans-serif-light"
+        android:hint=""
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColorHint="@color/white"
+        android:singleLine="true"
+        android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Car name"
+            android:textAllCaps="true"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="sans-serif-light"
+            android:textSize="17sp"
+            android:textColor="@color/white"/>
+        <Spinner
+            android:id="@+id/spincar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/shape"
+            android:fontFamily="sans-serif-light"
+            android:hint=""
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColorHint="@color/white"
+            android:singleLine="true"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gas Type"
+            android:textAllCaps="true"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="sans-serif-light"
+            android:textSize="17sp"
+            android:textColor="@color/white"/>
+        <Spinner
+            android:id="@+id/spingastype"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/shape"
+            android:fontFamily="sans-serif-light"
+            android:hint=""
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColorHint="@color/white"
+            android:singleLine="true"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total kilometeres"
+            android:textAllCaps="true"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="sans-serif-light"
+            android:textSize="17sp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/edtkm"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/shape"
+            android:fontFamily="sans-serif-light"
+            android:hint=""
+            android:inputType="number"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Car Legal number"
+            android:textAllCaps="true"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="sans-serif-light"
+            android:textSize="17sp"
+            android:textColor="@color/white"/>
+        <EditText
+            android:id="@+id/edtnumber"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/shape"
+            android:fontFamily="sans-serif-light"
+            android:hint=""
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textColorHint="@color/white"
+            android:singleLine="true"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnadd"
+            android:text="add me"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape">
+        </Button>
+    </LinearLayout>
+</ScrollView>
