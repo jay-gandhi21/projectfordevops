@@ -117,6 +117,8 @@ public class sellcar extends Activity {
                         Intent int12=new Intent(sellcar.this, view_car.class);
                         startActivity(int12);
                     }
+            }
+        });
 
         spinbrand.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -135,6 +137,7 @@ public class sellcar extends Activity {
                 }
                  spincar.setAdapter(arrayAdapter_carbrand);
             }
+
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
             }
@@ -172,7 +175,6 @@ public class sellcar extends Activity {
 
             }
         });
-            }
-        });
+
     }
 }

@@ -43,9 +43,9 @@ public class login_main extends AppCompatActivity {
                 btnlogin.isClickable();
                 String userInputuname = edituname.getText().toString();
                 String userInputpassword = editpwd.getText().toString();
-                if(userInputuname.contains("apple"))
+                if(userInputuname.contains("jay"))
                 {
-                    if (userInputpassword.contains("apple"))
+                    if (userInputpassword.contains("jay"))
                     {
                         Intent intent1 = new Intent(login_main.this, MainActivity.class);
                         startActivity(intent1);
@@ -55,9 +55,9 @@ public class login_main extends AppCompatActivity {
                         Toast.makeText(getBaseContext(), "password wrong", Toast.LENGTH_SHORT).show();
                     }
                 }
-                else if(userInputuname.contains("orange"))
+                else if(userInputuname.contains("madar"))
                 {
-                    if (userInputpassword.contains("orange"))
+                    if (userInputpassword.contains("madar"))
                     {
                         Intent intent2 = new Intent(login_main.this, MainActivity.class);
                         startActivity(intent2);
