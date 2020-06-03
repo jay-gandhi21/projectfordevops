@@ -64,8 +64,8 @@ public class sellcar extends Activity {
         arrayList_carbrand.add("Mercedez.Benz");
 
         arrayList_bmw=new ArrayList<>();
-        arrayList_bmw.add("3 searies");
-        arrayList_bmw.add("5 searies");
+        arrayList_bmw.add("3 series");
+        arrayList_bmw.add("5 series");
         arrayList_bmw.add("7 series");
         arrayList_bmw.add("RS 3");
         arrayList_bmw.add("RS 5");
@@ -147,7 +147,6 @@ public class sellcar extends Activity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String item = parent.getItemAtPosition(position).toString();
-                Toast.makeText(parent.getContext(),"selected" + item,Toast.LENGTH_LONG).show();
             }
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
@@ -157,7 +156,6 @@ public class sellcar extends Activity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String item = parent.getItemAtPosition(position).toString();
-                Toast.makeText(parent.getContext(),"selected" + item,Toast.LENGTH_LONG).show();
             }
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
@@ -167,7 +165,6 @@ public class sellcar extends Activity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String item = parent.getItemAtPosition(position).toString();
-                Toast.makeText(parent.getContext(),"selected" + item,Toast.LENGTH_LONG).show();
             }
 
             @Override
